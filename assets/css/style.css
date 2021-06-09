@@ -1,3 +1,4 @@
+/* Default Styling */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,7 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Background color, text color, font, and padding for the header */
+/* Header Styling */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,17 +17,15 @@ header {
     color: #ffffff;
 }
 
-/* Text display and font size for the Horiseon logo */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* Change the color of the "seo" letters in the Horiseon logo */
+
 header h1 .seo {
     color: #d9dcd6;
 }
 
-/* Padding, margine styling, alignment, font, and text size for the search-engine, online-reputation, and social-media links */
 header ul {
     padding-top: 15px;
     margin-right: 20px;
@@ -52,7 +51,7 @@ p {
     font-size: 16px;
 }
 
-/* Sizing, margines, position and image link for the hero image */
+/* Hero Image Styling */
 .hero {
     height: 800px;
     width: 100%;
@@ -62,7 +61,7 @@ p {
     background-position: center;
 }
 
-/* Alignment and margine styling for the article section */
+/* Floats for Positioning */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -73,14 +72,14 @@ p {
     margin-left: 25px;
 }
 
+/* Main Section Stlying */
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Margine, background, and font styling for each piece of the article section */
-.search-engine-optimization {
+.services {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -89,54 +88,16 @@ section {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Margin styling and font size for the heading of each piece of the article section */
-.search-engine-optimization h2 {
+.services h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Image height for each piece of the article section */
-.search-engine-optimization img {
+.services img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* Padding, margine styling, size, alighnemnt, font, background color, text color for the aside section */
+/* Aside Styling */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -150,58 +111,23 @@ section {
     color: #ffffff;
 }
 
-/* Margin styling and text color for each piece of the aside section */
-.benefit-lead {
+.benefits article {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* Margine style and alignment for each heading of the aside section */
-.benefit-lead h3 {
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Display style, margine, and width for each image of the aside section */
-.benefit-lead img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Margin styling, font, and text alignment for the footer */
+/* Footer Styling */
 footer {
     padding: 30px;
     clear: both;
@@ -209,7 +135,6 @@ footer {
     text-align: center;
 }
 
-/* Font size for the first line of the footer */
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
